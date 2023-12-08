@@ -1,17 +1,35 @@
-<h1>New division</h1>
+<h1>Division</h1>
+
+  <body>
+    <table style="width: 100%" border="1">
+      <tr>
+        <td>
+          <a href="/add">Add</a>
+        </td>
+
+        <td>
+          <a href="/subtract">Subtract</a>
+        </td>
+
+        <td>
+          <a href="/multiply">Multiply</a>
+        </td>
+
+        <td>
+          <a href="/divide">Divide</a>
+        </td>
+      </tr>
+    </table>
+    <h1>Division</h1>
 
 <form action="/wizard_divide">
-  <label for="">
-    Divide this:
-  </label>
-  <input id="" name="first_number" text="text">
+  <label for="first_field">Divide this:</label>
+  <input type="text" id="first_field" name="first_num">
 
-  <label for="">
-    by this:
-  </label>
-  <input id="" name="second_num" text="text">
+  <label for="second_field">by this:</label>
+  <input type="text" id="second_field" name="second_num">
 
-  <button>
-    Divide!
-  </button>
+  <button>Divide!</button>
 </form>
+
+  </body>
