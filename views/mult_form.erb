@@ -1,12 +1,40 @@
-<h1>New multiplication</h1>
+<h1>Multiplication</h1>
+
+  <body>
+    
+      <table style="width: 100%" border="1">
+        <tr>
+          <td>
+            <a href="/add">Add</a>
+          </td>
+
+          <td>
+            <a href="/subtract">Subtract</a>
+          </td>
+
+          <td>
+            <a href="/multiply">Multiply</a>
+          </td>
+
+          <td>
+            <a href="/divide">Divide</a>
+          </td>
+        </tr>
+      </table>
+      
+
+  <form action="/wizard_multiply">
+    <label for="first_field">
+      Multiply this:
+    </label>
+    <input id="first_field" name="first_num" text="text">
+
+    <label for="second_field">by this:</label>
+    <input id="second_field" name="second_num" text="text">
+
+    <button>Multiply!</button>
+  </form>
+
+    </body>
 
 
-<form action="/wizard_multiply">
-  <label for="first_field">Multiply this:</label>
-  <input type="text" id="first_field" name="first_num">
-
-  <label for="second_field">by this:</label>
-  <input type="text" id="second_field" name="second_num">
-
-  <button>Multiply!</button>
-</form>
